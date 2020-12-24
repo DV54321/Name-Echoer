@@ -5,4 +5,4 @@ let Hello() =
     let name = Console.ReadLine()
     printfn "Hello %s" name
 Hello()
-Console.ReadKey |> ignore
+Console.ReadKey() |> ignore
